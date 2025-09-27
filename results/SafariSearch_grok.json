@@ -1,0 +1,12 @@
+{
+  "task_name": "SafariSearch",
+  "agent": "grok",
+  "model": "grok-2",
+  "actions": [
+    {
+      "action_type": "tap",
+      "target": "Open Safari and search HUD evals",
+      "optimized": true
+    }
+  ]
+}

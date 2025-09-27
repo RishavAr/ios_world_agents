@@ -1,0 +1,8 @@
+{
+  "task_name": "SafariSearch",
+  "goal": "Open Safari and search for AI evals",
+  "actions": [
+    {"action_type": "tap", "target": "Safari"},
+    {"action_type": "type", "content": " AI agentic evals"}
+  ]
+}

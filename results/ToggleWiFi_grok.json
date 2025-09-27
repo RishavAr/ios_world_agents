@@ -1,0 +1,12 @@
+{
+  "task_name": "ToggleWiFi",
+  "agent": "grok",
+  "model": "grok-2",
+  "actions": [
+    {
+      "action_type": "tap",
+      "target": "Toggle WiFi setting",
+      "optimized": true
+    }
+  ]
+}

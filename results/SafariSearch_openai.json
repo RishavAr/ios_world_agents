@@ -1,0 +1,6 @@
+{
+  "task_name": "SafariSearch",
+  "agent": "openai",
+  "model": "gpt-4o",
+  "actions": []
+}

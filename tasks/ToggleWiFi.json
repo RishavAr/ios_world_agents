@@ -1,0 +1,7 @@
+{
+  "task_name": "ToggleWiFi",
+  "goal": "Open Settings to WiFi",
+  "actions": [
+    {"action_type": "tap", "target": "Settings/WiFi"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "task_name": "ToggleWiFi",
+  "agent": "gemini",
+  "model": "gemini-1.5-flash",
+  "actions": [
+    {
+      "action_type": "tap",
+      "target": "Toggle WiFi setting",
+      "optimized": true
+    }
+  ]
+}

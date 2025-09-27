@@ -1,0 +1,12 @@
+{
+  "task_name": "SafariSearch",
+  "agent": "gemini",
+  "model": "gemini-1.5-flash",
+  "actions": [
+    {
+      "action_type": "tap",
+      "target": "Open Safari and search HUD evals",
+      "optimized": true
+    }
+  ]
+}

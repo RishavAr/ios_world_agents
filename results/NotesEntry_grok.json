@@ -1,0 +1,12 @@
+{
+  "task_name": "NotesEntry",
+  "agent": "grok",
+  "model": "grok-2",
+  "actions": [
+    {
+      "action_type": "tap",
+      "target": "Create note Agentic Eval Success \ud83d\ude80",
+      "optimized": true
+    }
+  ]
+}

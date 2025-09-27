@@ -1,0 +1,8 @@
+{
+  "task_name": "NotesEntry",
+  "goal": "Open Notes app and create a note",
+  "actions": [
+    {"action_type": "tap", "target": "Notes"},
+    {"action_type": "create_note", "content": "This note was created by my evaluation agent 🚀"}
+  ]
+}

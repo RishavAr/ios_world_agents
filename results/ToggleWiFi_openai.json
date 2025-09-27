@@ -1,0 +1,6 @@
+{
+  "task_name": "ToggleWiFi",
+  "agent": "openai",
+  "model": "gpt-4o",
+  "actions": []
+}

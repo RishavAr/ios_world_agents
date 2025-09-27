@@ -1,0 +1,12 @@
+openai>=1.0.0
+transformers>=4.40.0
+huggingface_hub>=0.23.0
+google-generativeai>=0.7.0
+streamlit
+appium-python-client
+fastapi==0.110.0
+uvicorn==0.29.0
+requests==2.31.0
+python-dotenv==1.0.1
+streamlit==1.35.0
+pandas==2.2.2
