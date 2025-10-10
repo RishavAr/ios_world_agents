@@ -109,7 +109,9 @@ TextGrad (Add-on)	Differentiable Feedback	+8–10 % improvement	✅	✅
 ```
 
 📊 Evaluation Metrics
+
 Metric	Description
+
 Task Accuracy	% of tasks completed successfully
 Reasoning Consistency	Logical coherence of action sequence
 Adaptation Latency	Average time to correct failed action
@@ -117,13 +119,19 @@ Cognitive Depth	Measured by reasoning token depth
 Cross-App Generalization	Performance consistency across app domains
 
 🧩 Advanced Features
+
+
 🧠 Reflexion Loop
+
+
 After each task, the agent reviews its own trajectory:
 “Was the sequence optimal? Could I recover if failure occurred?”
 This improves adaptive reasoning and task memory.
 
 
 🔁 TextGrad Integration
+
+
 Uses gradient-like textual signals:
 "The previous action sequence failed due to missing confirmation. 
 Next time, include confirm_action after submit_search."
@@ -131,11 +139,17 @@ Result: models self-adjust through textual feedback instead of fine-tuning.
 
 
 🗺️ Embodied Evaluation
+
+
 Each agent operates within an interactive simulator context.
 Unlike static QA benchmarks, this setup evaluates causal understanding — whether the model knows how and when to execute.
 
 📈 Research Impact
+
+
+
 Aspect	Description
+
 Novelty	First unified iOS simulation framework for multi-app LLM evaluation
 Benchmark Value	Measures practical reasoning in real-world task contexts
 Extendability	Framework easily adapts to AndroidWorld or Cross-Platform Agents
@@ -143,6 +157,9 @@ Research Goal	Foundation for Universal Agent Evaluation under embodied cognition
 
 
 🧩 Sample Visualization (Flow of Execution)
+
+
+```
 Task File  →  Agent (GPT-4o)
      ↓
 Reasoning: "Open Safari → search Tesla → bookmark"
@@ -152,6 +169,8 @@ Simulator Execution (xcrun)
 UI State Feedback → Evaluation Metrics
      ↓
 TextGrad / Reflexion Optimization
+```
+
 
 
 ## 🧪 Development Notes
@@ -165,6 +184,8 @@ TextGrad / Reflexion Optimization
 
 ## 🐞 Troubleshooting
 
+
+
 | Issue | Fix |
 |-------|-----|
 | `ModuleNotFoundError: No module named 'src'` | Run all commands from project root (`ios_world_agents/`). |
@@ -174,18 +195,31 @@ TextGrad / Reflexion Optimization
 
 ---
 
+
+
+
 📜 License
+
+
+
 MIT License © 2025 Rishav Aryan
+
+
 💡 Citation
+
+```
 @misc{aryan2025iosworldagents,
   title   = {iOS World Agents: Evaluating LLMs in Mobile Embodied Environments},
   author  = {Rishav Aryan},
   year    = {2025},
   howpublished = {\url{https://github.com/<your-username>/ios_world_agents}}
 }
-
+```
 
 🧭 Future Work
+
+
+
 Integrate audio & voice control (Siri interface simulation)
 Extend to iPadOS & watchOS agents
 Add vision-grounded reasoning for UI state recognition
@@ -193,6 +227,8 @@ Release LLM evaluation leaderboard for embodied tasks
 
 
 🧑‍💻 Developed by Rishav Aryan
+
+
 Research Engineer | Embodied AI | Agentic Systems | LLM Reasoning
 
 
