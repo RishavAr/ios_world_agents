@@ -55,8 +55,10 @@ python3 -m src.main tasks/calendar_tasks-2.json openai gpt-4o --exec
 
 ```
 
-```
+
 📂 Folder Structure
+
+
 ios_world_agents/
 │
 ├── src/
@@ -80,7 +82,6 @@ ios_world_agents/
 │
 └── README.md
 
-````
 
 ```
 🧠 Example Task Schema
