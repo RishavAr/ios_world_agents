@@ -15,7 +15,7 @@ This framework supports **multi-app coordination** (Safari, Maps, Calendar, Phot
 ## 🧩 Core Highlights
 | Capability | Description |
 |-------------|--------------|
-| **Multi-App Automation** | Executes 30 + predefined iOS tasks across 9 native apps. |
+| **Multi-App Automation** | Executes  predefined iOS tasks across  native apps. |
 | **Agentic Reasoning** | Supports GPT-4o (OpenAI), Gemini (Google DeepMind), and Grok (xAI) with chain-of-thought & reflexion layers. |
 | **Cognitive Evaluation** | Measures reasoning depth, consistency, and task success rate. |
 | **TextGrad Feedback** | Optional differentiable textual feedback loop for self-improvement. |
