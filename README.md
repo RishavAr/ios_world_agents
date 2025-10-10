@@ -43,6 +43,8 @@ xcrun simctl list devices | grep Booted
 xcrun simctl boot "iPhone 17 Pro"
 
 ```
+
+```
 ▶️ Running the System
 Example – Safari Tasks
 python3 -m src.main tasks/safari_tasks-2.json openai gpt-4o --exec
@@ -51,7 +53,9 @@ python3 -m src.main tasks/maps_tasks-2.json openai gpt-4o --exec
 Example – Calendar Tasks
 python3 -m src.main tasks/calendar_tasks-2.json openai gpt-4o --exec
 
+```
 
+```
 📂 Folder Structure
 ios_world_agents/
 │
@@ -76,7 +80,9 @@ ios_world_agents/
 │
 └── README.md
 
+````
 
+```
 🧠 Example Task Schema
 {
   "task_name": "BookmarkPage",
@@ -89,7 +95,9 @@ ios_world_agents/
   ],
   "expected_output": "xAI website added to Safari bookmarks"
 }
+```
 
+```
 
 🧮 Model Comparison
 Model	Reasoning Layer	Accuracy	Recovery (Failed → Retry)	Reflexion Support
@@ -98,6 +106,7 @@ Gemini-1.5	CoT + Context-Expansion	87 %	⚠️ Limited	⚠️ Partial
 Grok-2	Zero-Shot + Context Memory	78 %	❌	❌
 TextGrad (Add-on)	Differentiable Feedback	+8–10 % improvement	✅	✅
 
+```
 
 📊 Evaluation Metrics
 Metric	Description
